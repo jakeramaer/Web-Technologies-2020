@@ -3,9 +3,7 @@
 
 The presented website is for the student led organisation Marmalade Bristol, who create clothing designs to fundraise for local charities. The site is used by the public to submit their own work for review and explore past fundraisers, as well as providing a brief background on the organisation.
 
-<img src="https://github.com/jakeramaer/Web-Technologies-2020/blob/main/Screenshot%201.png" width="300">
-
-<img src="https://github.com/jakeramaer/Web-Technologies-2020/blob/main/Screenshot%202.png" width="300">
+<img src="https://github.com/jakeramaer/Web-Technologies-2020/blob/main/Screenshot%201.png" width="300">  <img src="https://github.com/jakeramaer/Web-Technologies-2020/blob/main/Screenshot%202.png" width="310">
 
 
 ## Key Features

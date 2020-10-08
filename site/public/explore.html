@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-GB" xml:lang="en-GB">
+
+<head>
+  <meta charset="UTF-8" />
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+  <title>Marmalade</title>
+  <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+  <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
+  <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+</head>
+
+<body>
+  <div class="content">
+    <div class="wrapper-sidebar">
+      <div class="spread">
+        <ul id="navbar" class="main-nav js--main-nav"></ul>
+      </div>
+      <script src=./JS/navbar.js></script>
+      <div class="top">
+        <h4>Explore our latest work.</h4>
+        <h5>Here are a few pieces we've recenty been working on.</h5>
+        <div class="row">
+          <a href="https://www.instagram.com/marmalade_bristol/" target="_blank">
+            <img alt="instagram" src="resources/img/instagram.png" width="30" height="30" class="image-link"/>
+          </a>
+        </div>
+        <div class="row">
+          <a href="https://soundcloud.com/marmalade_bristol" target="_blank">
+            <img alt="soundcloud" src="resources/img/soundcloud.png" width="30" height="30" class="image-link"/>
+          </a>
+        </div>
+        <div class="row">
+          <a href="https://www.facebook.com/saintmarmaladebristol/" target="_blank">
+            <img alt="facebook" src="resources/img/facebook.png" width="30" height="30" class="image-link"/>
+          </a>
+        </div>
+      </div>
+      <div id="picture" class="grid">
+      </div>
+    </div>
+  </div>
+  <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+  <script src="./JS/get_all.js"></script>
+</body>
+</html>

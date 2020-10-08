@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-GB" xml:lang="en-GB">
+
+<head>
+  <meta charset="UTF-8" />
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+  <title>Marmalade</title>
+  <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+  <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+  <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
+  <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+</head>
+
+<body>
+  <div class="content">
+    <div class="wrapper-sidebar">
+      <div class="spread">
+        <ul id="navbar" class="main-nav js--main-nav">
+        </ul>
+      </div>
+      <script src=./JS/navbar.js>
+      </script>
+      <div class="top">
+        <h4 id="usertext">profile</h4>
+        <h5>This is your personal profile page.</h5>
+        <h5>If you want to contact us directly, here's our <a href = "mailto:saintmarmalade@gmail.com" class="text">email</a></h5>
+        <h5>Click <a href="/updatepage" class="text">here</a> to update details</h5>
+        <form id="photoForm" enctype="multipart/form-data" class="contact-form">
+          <div class="row">
+            <input type="file" id="photo" name="uploadImage">
+          </div>
+          <b id="response"></b>
+          <div class="row">
+            <input type="submit" value="Submit">
+          </div>
+        </form>
+      </div>
+      <div id="picture" class="grid">
+      </div>
+      <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+      <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+      <script src="./JS/masonry.js"></script>
+      <script src="./JS/fetch-picture.js"></script>
+      <script src="./JS/submitPhoto.js"></script>
+    </div>
+  </div>
+</body>
+
+</html>

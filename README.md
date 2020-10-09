@@ -1,5 +1,5 @@
 # Web Technologies - Marmalade Bristol Website Coursework (2020)
-(Graded at 80%)
+(Graded at 78%)
 
 The presented website is for the student led organisation Marmalade Bristol, who create clothing designs to fundraise for local charities. The site is used by the public to submit their own work for review and explore past fundraisers, as well as providing a brief background on the organisation.
 

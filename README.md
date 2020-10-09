@@ -13,3 +13,12 @@ The presented website is for the student led organisation Marmalade Bristol, who
 * SQlite3 integrated into server side module, used for storing user signup detail, password encryption data, session and cookie information for users who have logged in and information about files uploaded by users
 * Server written in javascript using express framework. Handles inserts, deletes and updates to the database. Handles user signups, encrypts users passwords to store in the database. Handles file uploading by users using multer. Sets up express-session and configures cookuser ies for users that have logged in. Authenticates cookies for users accessing resources only available to logged in users.Sends data back to users, e.g. status of sign up request etc. photos uploaded by user, appropriate error messages.
 * Implemented a personalised  profile page for logged in users. Here data specific to a user is retrieved from the server and is laid out on the page. The page also affords the ability to upload images and delete images.
+
+## Technologies
+Project is created with:
+* npm version: 6.14.8
+
+	
+## Setup
+* To build the necessary node modules, use the command 'npm build' in the site folder.
+* To start the website server, use 'node server1' in the site folder.
